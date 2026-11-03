@@ -75,3 +75,4 @@ iconbv/
 │   ├── theme.rs      # Grayscale palette, fonts, glass painting helpers
 │   └── convert.rs    # SVG/PNG rendering, ICO encoding
 ```
+`app.ico` is created by me, Ava, licensed under [`CC BY-NC-SA 4.0`](https://creativecommons.org/licenses/by-nc-sa/4.0/)
