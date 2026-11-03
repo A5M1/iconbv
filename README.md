@@ -26,15 +26,15 @@ Requires Rust 1.98+ and the Windows SDK (for `windows-sys`).
 # Debug build (windowless by default)
 cargo build
 
-# Run with an SVG/PNG source
-cargo run -- assets/sample.svg
+# Run with an SVG or PNG source
+cargo run -- <your-file.svg>
 
 # Release build
 cargo build --release
 
 # Build with a console window (useful for debugging panics/logs)
 cargo build --features console
-cargo run --features console -- assets/sample.svg
+cargo run --features console -- <your-file.svg>
 ```
 
 ### Build artifacts
