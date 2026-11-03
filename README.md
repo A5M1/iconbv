@@ -75,4 +75,19 @@ iconbv/
 │   ├── theme.rs      # Grayscale palette, fonts, glass painting helpers
 │   └── convert.rs    # SVG/PNG rendering, ICO encoding
 ```
-`app.ico` is created by me, Ava, licensed under [`CC BY-NC-SA 4.0`](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+## Attribution
+
+**App icon:** `APP.ico` created by Ava, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+**Rust libraries used:**
+
+| Crate | Version | Purpose | License |
+|-------|---------|---------|---------|
+| [eframe](https://crates.io/crates/eframe) | 0.32.3 | Immediate-mode GUI framework (egui backend) | MIT / Apache-2.0 |
+| [egui](https://crates.io/crates/egui) | 0.32.3 | Immediate-mode GUI library | MIT / Apache-2.0 |
+| [ico](https://crates.io/crates/ico) | 0.6.0 | Windows ICO encoding/decoding | MIT |
+| [image](https://crates.io/crates/image) | 0.25.10 | Image decoding and manipulation | MIT / Apache-2.0 |
+| [resvg](https://crates.io/crates/resvg) | 0.49.0 | SVG rendering | MPL-2.0 / Apache-2.0 |
+| [rfd](https://crates.io/crates/rfd) | 0.17.2 | Cross-platform file dialogs | Zlib |
+| [windows-sys](https://crates.io/crates/windows-sys) | 0.61.2 | Raw Windows API bindings | MIT |
+| [embed-resource](https://crates.io/crates/embed-resource) | 2.3 | Embed resources into Windows executables | MIT |
