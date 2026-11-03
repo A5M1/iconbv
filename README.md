@@ -1,4 +1,5 @@
 # ICONBV — Windows Icon Studio
+<img width="1639" height="972" alt="image" src="https://github.com/user-attachments/assets/e7db2171-5b1a-4527-a6be-172b8ea6b694" />
 
 Desktop app that converts SVG/PNG artwork into
 multi-resolution Windows `.ico` files, with per-size embedded-frame selectors
